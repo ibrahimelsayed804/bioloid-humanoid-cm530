@@ -1,0 +1,32 @@
+{
+  "name": "bow",
+  "description": "Polite bow from the hips with arms forward, then return to ready.",
+  "keyframes": [
+    {
+      "pose": {
+        "r_hip_pitch": -50,
+        "l_hip_pitch": -50,
+        "r_ankle_pitch": -5,
+        "l_ankle_pitch": -5,
+        "r_knee": 20,
+        "l_knee": 20,
+        "r_shoulder_pitch": -30,
+        "l_shoulder_pitch": -30
+      },
+      "duration": 1.0,
+      "hold": 0.6
+    },
+    {
+      "pose": {
+        "r_hip_pitch": -10,
+        "l_hip_pitch": -10,
+        "r_ankle_pitch": 10,
+        "l_ankle_pitch": 10,
+        "r_shoulder_pitch": 0,
+        "l_shoulder_pitch": 0
+      },
+      "duration": 1.0,
+      "hold": 0.2
+    }
+  ]
+}

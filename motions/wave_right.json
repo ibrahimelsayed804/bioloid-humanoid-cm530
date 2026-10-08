@@ -1,0 +1,60 @@
+{
+  "name": "wave_right",
+  "description": "Raise the right arm and wave three times. Use --mirror for the left arm.",
+  "keyframes": [
+    {
+      "pose": {
+        "r_shoulder_pitch": -140,
+        "r_shoulder_roll": -30,
+        "r_elbow": 50
+      },
+      "duration": 0.8,
+      "hold": 0.1
+    },
+    {
+      "pose": {
+        "r_elbow": 15
+      },
+      "duration": 0.3
+    },
+    {
+      "pose": {
+        "r_elbow": 60
+      },
+      "duration": 0.3
+    },
+    {
+      "pose": {
+        "r_elbow": 15
+      },
+      "duration": 0.3
+    },
+    {
+      "pose": {
+        "r_elbow": 60
+      },
+      "duration": 0.3
+    },
+    {
+      "pose": {
+        "r_elbow": 15
+      },
+      "duration": 0.3
+    },
+    {
+      "pose": {
+        "r_elbow": 60
+      },
+      "duration": 0.3
+    },
+    {
+      "pose": {
+        "r_shoulder_pitch": 0,
+        "r_shoulder_roll": -75,
+        "r_elbow": 30
+      },
+      "duration": 0.8,
+      "hold": 0.2
+    }
+  ]
+}

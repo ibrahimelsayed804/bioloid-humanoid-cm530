@@ -1,0 +1,26 @@
+{
+  "_comment": "Bioloid Premium humanoid (Type A) joint map. Odd IDs = right side, even IDs = left side. 'direction' makes mirrored joints share the same sign convention so symmetric poses use identical numbers; 'trim_deg' corrects small assembly offsets. Verify direction and limits on your own robot with tools/monitor.py before running motions.",
+  "torque_limit_percent": 80,
+  "max_temperature_c": 65,
+  "min_voltage_v": 10.0,
+  "joints": [
+    {"id": 1,  "name": "r_shoulder_pitch", "direction":  1, "trim_deg": 0, "min_deg": -150, "max_deg": 150},
+    {"id": 2,  "name": "l_shoulder_pitch", "direction": -1, "trim_deg": 0, "min_deg": -150, "max_deg": 150},
+    {"id": 3,  "name": "r_shoulder_roll",  "direction":  1, "trim_deg": 0, "min_deg": -100, "max_deg": 100},
+    {"id": 4,  "name": "l_shoulder_roll",  "direction": -1, "trim_deg": 0, "min_deg": -100, "max_deg": 100},
+    {"id": 5,  "name": "r_elbow",          "direction":  1, "trim_deg": 0, "min_deg": -100, "max_deg": 100},
+    {"id": 6,  "name": "l_elbow",          "direction": -1, "trim_deg": 0, "min_deg": -100, "max_deg": 100},
+    {"id": 7,  "name": "r_hip_yaw",        "direction":  1, "trim_deg": 0, "min_deg": -45,  "max_deg": 45},
+    {"id": 8,  "name": "l_hip_yaw",        "direction": -1, "trim_deg": 0, "min_deg": -45,  "max_deg": 45},
+    {"id": 9,  "name": "r_hip_roll",       "direction":  1, "trim_deg": 0, "min_deg": -45,  "max_deg": 45},
+    {"id": 10, "name": "l_hip_roll",       "direction": -1, "trim_deg": 0, "min_deg": -45,  "max_deg": 45},
+    {"id": 11, "name": "r_hip_pitch",      "direction":  1, "trim_deg": 0, "min_deg": -100, "max_deg": 100},
+    {"id": 12, "name": "l_hip_pitch",      "direction": -1, "trim_deg": 0, "min_deg": -100, "max_deg": 100},
+    {"id": 13, "name": "r_knee",           "direction":  1, "trim_deg": 0, "min_deg": -130, "max_deg": 130},
+    {"id": 14, "name": "l_knee",           "direction": -1, "trim_deg": 0, "min_deg": -130, "max_deg": 130},
+    {"id": 15, "name": "r_ankle_pitch",    "direction":  1, "trim_deg": 0, "min_deg": -80,  "max_deg": 80},
+    {"id": 16, "name": "l_ankle_pitch",    "direction": -1, "trim_deg": 0, "min_deg": -80,  "max_deg": 80},
+    {"id": 17, "name": "r_ankle_roll",     "direction":  1, "trim_deg": 0, "min_deg": -40,  "max_deg": 40},
+    {"id": 18, "name": "l_ankle_roll",     "direction": -1, "trim_deg": 0, "min_deg": -40,  "max_deg": 40}
+  ]
+}

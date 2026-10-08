@@ -1,0 +1,54 @@
+{
+  "name": "squat",
+  "description": "Slow squat and stand twice. Hip, knee and ankle move together so the torso stays upright over the feet.",
+  "keyframes": [
+    {
+      "pose": {
+        "r_hip_pitch": -45,
+        "l_hip_pitch": -45,
+        "r_knee": 90,
+        "l_knee": 90,
+        "r_ankle_pitch": 45,
+        "l_ankle_pitch": 45
+      },
+      "duration": 1.2,
+      "hold": 0.3
+    },
+    {
+      "pose": {
+        "r_hip_pitch": -10,
+        "l_hip_pitch": -10,
+        "r_knee": 20,
+        "l_knee": 20,
+        "r_ankle_pitch": 10,
+        "l_ankle_pitch": 10
+      },
+      "duration": 1.2,
+      "hold": 0.3
+    },
+    {
+      "pose": {
+        "r_hip_pitch": -45,
+        "l_hip_pitch": -45,
+        "r_knee": 90,
+        "l_knee": 90,
+        "r_ankle_pitch": 45,
+        "l_ankle_pitch": 45
+      },
+      "duration": 1.2,
+      "hold": 0.3
+    },
+    {
+      "pose": {
+        "r_hip_pitch": -10,
+        "l_hip_pitch": -10,
+        "r_knee": 20,
+        "l_knee": 20,
+        "r_ankle_pitch": 10,
+        "l_ankle_pitch": 10
+      },
+      "duration": 1.2,
+      "hold": 0.3
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[project]
+name = "bioloid-humanoid-cm530"
+version = "0.1.0"
+description = "Python control layer for a ROBOTIS Bioloid humanoid (CM-530 controller, Dynamixel AX-12A servos)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ibrahim Said Hussein Elsayed" }]
+dependencies = []
+
+[project.optional-dependencies]
+hardware = ["pyserial>=3.5"]
+
+[tool.setuptools]
+packages = ["bioloid"]

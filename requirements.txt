@@ -1,0 +1,1 @@
+pyserial>=3.5   # only needed for real hardware; the simulator and tests use the standard library

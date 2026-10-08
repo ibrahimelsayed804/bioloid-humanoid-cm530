@@ -1,0 +1,21 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Unit tests (simulated robot, no hardware needed)
+        run: python -m unittest discover -s tests -t . -v
+      - name: Play every motion in the simulator
+        run: for m in motions/*.json; do python tools/play.py "$m" --sim; done

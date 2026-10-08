@@ -1,0 +1,51 @@
+{
+  "name": "arms_up",
+  "description": "Celebrate: both arms up, a short shake, then back to ready.",
+  "keyframes": [
+    {
+      "pose": {
+        "r_shoulder_pitch": -150,
+        "l_shoulder_pitch": -150,
+        "r_shoulder_roll": -20,
+        "l_shoulder_roll": -20,
+        "r_elbow": 0,
+        "l_elbow": 0
+      },
+      "duration": 0.9,
+      "hold": 0.2
+    },
+    {
+      "pose": {
+        "r_shoulder_roll": -35,
+        "l_shoulder_roll": -35
+      },
+      "duration": 0.25
+    },
+    {
+      "pose": {
+        "r_shoulder_roll": -20,
+        "l_shoulder_roll": -20
+      },
+      "duration": 0.25
+    },
+    {
+      "pose": {
+        "r_shoulder_roll": -35,
+        "l_shoulder_roll": -35
+      },
+      "duration": 0.25
+    },
+    {
+      "pose": {
+        "r_shoulder_pitch": 0,
+        "l_shoulder_pitch": 0,
+        "r_shoulder_roll": -75,
+        "l_shoulder_roll": -75,
+        "r_elbow": 30,
+        "l_elbow": 30
+      },
+      "duration": 0.9,
+      "hold": 0.2
+    }
+  ]
+}
